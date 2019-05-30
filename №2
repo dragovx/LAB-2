@@ -1,0 +1,5 @@
+a=str(input("Введите строку: "))
+s=a.split(" ")
+for i in range(len(s)):
+    if len(s[i])<10:
+        print(s[i])
