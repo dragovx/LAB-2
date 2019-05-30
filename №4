@@ -1,0 +1,9 @@
+s=str(input("Введите строку: "))
+s1=' '.join(s)
+sNew=''
+s2=s1.split(' ')
+for i in range(len(s2)):
+    Cis=s2[i].isalpha()
+    if Cis==True:
+        sNew+=s2[i]
+print("Новая строка: ",sNew)
