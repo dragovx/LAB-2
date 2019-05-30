@@ -1,0 +1,6 @@
+my_number='76'
+user_number=str(input("Введите число: "))
+while user_number!=my_number:
+    print("Не верно")
+    user_number=str(input("Введите число: "))
+print("Верно")
